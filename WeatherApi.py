@@ -43,15 +43,18 @@ for elt in date:
 #get hrs    
 hrs= timeL[1:]
 
-
-
 hrs,tempF=anon(hrs,tempF)
 complete= combineDT (hrs,tempF)
 
-# (hrs,temp)
-complete
 
+# convert strings to floats
+float_temps = [float(x) for x in tempF]
+#averages the temperatures
+average = sum(float_temps) / len(float_temps)
+#show only tenths place
+average = round(average, 1)
 
+average
 # In[ ]:
 
 

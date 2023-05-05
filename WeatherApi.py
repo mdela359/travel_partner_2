@@ -54,7 +54,7 @@ average = sum(float_temps) / len(float_temps)
 #show only tenths place
 average = round(average, 1)
 
-print("The average is:", average)
+average
 # In[ ]:
 
 

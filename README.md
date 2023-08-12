@@ -66,6 +66,8 @@ Things to do:
 - Every team member should have the same developing environment and set up.
   - Same software versions
   - Same modules installed
+    
+- Access to AWS for Every Team Member
 
 ## Contributing
 
